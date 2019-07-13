@@ -9,8 +9,8 @@
 ## 스터디 진행 방법 / Repository 사용법:
 - [강의 Syllabus](http://cs231n.stanford.edu/syllabus.html)를 참고해 개인적으로 공부를 하고 매주 돌아가면서 한명의 스터디원이 발표합니다. Google Hangout 그룹화상통화 기능을 발표합니다.
 - 참고한 자료는 [2017년도 동영상 강의](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)와 [2017도 슬라이드](http://cs231n.stanford.edu/slides/2017/) / [2019년도 슬라이드](http://cs231n.stanford.edu/slides/2019/) 입니다.
-- 발표 도중에 제기된 질문과 토론 내용을 정리하여 이 repository에 공유합니다.
-- 스터디원 각각 작성한 CS231n 강의 Assignment 코드도 이 repository에 공유합니다.
+- 발표 도중에 제기된 질문과 토론 내용을 정리하여 **['Study Records'폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
+- 스터디원 각각 작성한 CS231n 강의 Assignment 코드도 **['Assignments'폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments) 에 공유합니다.
 - 팀원들은 Slack과 카카오톡을 이용하여 소통하고 스터디에 도움이 될만한 내용이 있을 경우 이 역시 이 repository에 공유합니다.
 
 
