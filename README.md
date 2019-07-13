@@ -1,5 +1,6 @@
 # AI Robotics KR - CS231n 스터디 Repository
 
+![image_link](https://github.com/ai-robotics-kr/cs231n_study/blob/master/images/stanford_logo.png?raw=true)
 
 ## 스터디 소개:
 - 목적: [Stanford University CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) 강의를 통해 딥러닝 기반 비전에 대해 공부하기.
