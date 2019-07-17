@@ -39,11 +39,12 @@
 | Week 19. Adversarial Examples and Adversarial Training | 11/04/2019 22:00 | 정혜원 |
 | Week 20. 마무리 | 11/11/2019 22:00 | 박혜지 |
 
-## CS231n 온라인 스터디 이용 방법
+## 스터디원을 위한 CS231n 온라인 스터디 안내
 ```
 - 온라인 (구글 행아웃)으로 매주 월요일 22시 ~ 23시 30분에 진행됩니다. (2019.07 ~ 2019.11)
 - 스터디 형식: 슬라이드 발표 (약 30분 ~ 40분 이내) + 질의응답 + 토론 
 - 매주 스터디를 녹화하여 유튜브에 공유합니다.
+```
 ```
 - 발표
   - Assignment 주차에는 발표 없이 토론으로 진행합니다.
@@ -60,7 +61,7 @@
   - 슬랙 채널 ch_딥러닝_비전이나 카카오톡 단톡방을 이용하여 질문하실 수 있습니다.
   - 직장인 분들이나 강의를 천천히 공부하고 싶은 분들이 있을 것 같아 총 20주로 구성하였습니다. 개인적으로 진도 나갈 분들도 스터디는 꼭 참여해주세요.
   - 마음껏 질문과 의견을 나누어주세요.
-
+```
 ## 유용한 링크 모음
 - [Deep Learning Book](http://www.deeplearningbook.org/)
 - [Coursera - Mathematics for Machine Learning Course](https://www.coursera.org/specializations/mathematics-machine-learning)
