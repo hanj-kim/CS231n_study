@@ -15,7 +15,7 @@
 - 팀원들은 Slack과 카카오톡을 이용하여 소통하고 스터디에 도움이 될만한 내용은 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
 
 
-## 강의 플랜
+## 스터디 진도표
 |          스터디 내용         |   날짜와 시간     | 발표자 |
 | -------------------------- |:---------------:|-----:|
 | Week 1. Introduction + 자기소개 |	07/01/2019 22:00 | 박혜지 |
