@@ -4,19 +4,40 @@
 
 ## 스터디 소개:
 - 목적: [Stanford University CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) 강의를 통해 딥러닝 기반 비전에 대해 공부하기.
-- 기간: 2019년 7월 ~ 2019년 9월
-- 참여인원: 스터디장 'XXX'외 N명
+- 기간: 2019년 7월 ~ 2019년 11월
+- 참여자: 박혜지(스터디장), 장형기, 전마로, 김영기, 이정연, 김한준, 임한동, 채병기, 정혜원, 배현진
 
 ## 스터디 진행 방법 / Repository 사용법:
-- [강의 Syllabus](http://cs231n.stanford.edu/syllabus.html)를 참고해 개인적으로 공부를 하고 매주 돌아가면서 한명의 스터디원이 발표합니다. Google Hangout 그룹화상통화 기능을 발표합니다.
-- 참고한 자료는 [2017년도 동영상 강의](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)와 [2017도 슬라이드](http://cs231n.stanford.edu/slides/2017/) / [2019년도 슬라이드](http://cs231n.stanford.edu/slides/2019/) 입니다.
-- 발표 도중에 제기된 질문과 토론 내용을 정리하여 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
-- 스터디원 각각 작성한 CS231n 강의 Assignment 코드도 **['Assignments' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments)** 에 공유합니다.
-- 팀원들은 Slack과 카카오톡을 이용하여 소통하고 스터디에 도움이 될만한 내용이 있을 경우 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 공유합니다.
+- [강의 Syllabus](http://cs231n.stanford.edu/syllabus.html)를 참고해 개인적으로 공부를 하고 매주 돌아가면서 한명의 스터디원이 발표하고 질의응답시간에 관련 내용을 가지고 의견을 나눕니다. Google Hangout의 그룹화상통화 기능을 이용해 발표합니다.
+- 참고한 자료는 [2017년도 동영상 강의](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)와 [2017년도 슬라이드](http://cs231n.stanford.edu/slides/2017/) / [2019년도 슬라이드](http://cs231n.stanford.edu/slides/2019/) 및 Lecture Notes 입니다.
+- 스터디 중 제기된 질문과 토론 내용의 일부를 정리하여 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
+- CS231n Online Study 스터디원들의 Assignment 코드를 **['Assignments' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments)** 에 공유합니다.
+- 팀원들은 Slack과 카카오톡을 이용하여 소통하고 스터디에 도움이 될만한 내용은 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
 
 
 ## 강의 플랜
-[온라인 진도표 링크]()
+|          스터디 내용         |   날짜와 시간     | 발표자 |
+| -------------------------- |:---------------:|-----:|
+| Week 1. Introduction + 자기소개 |	07/01/2019 22:00 | 박혜지 |
+| Week 2. Image Classification | 07/08/2019 22:00 | 장형기 |
+| Week 3. Loss Functions and Optimization| 07/15/2019 22:00 | 전마로 |
+| Week 4. Introduction to Neural Networks | 07/22/2019 22:00 | 김영기 |
+| Week 5. CNN (Convolutional Neural Networks) | 07/29/2019 22:00 | 이정연 |
+| Week 6. Training Neural Networks, part 1 | 08/05/2019 22:00 | 전마로 |
+| Week 7. Assignment # 1 (CS231n 2019)→이후 내용 깃헙 공유 | 08/12/2019 22:00 | 토론 |
+| Week 8. Training Neural Networks, part 2 | 08/19/2019 22:00 | 김영기 |
+| Week 9. Deep Learning Software | 08/26/2019 22:00 | 김한준 |
+| Week 10. CNN Architectures | 09/02/2019 22:00 |	장형기 |
+| Week 11. RNN (Recurrent Neural Networks) | 09/09/2019 22:00 | 임한동 |
+| Week 12. Assignment #2 (CS231n 2019)→이후 내용 깃헙 공유 | 09/16/2019 22:00 | 토론 |
+| Week 13. Detection and Segmentation |	09/23/2019 22:00 | 김한준 |
+| Week 14. Visualizing and Understanding | 09/30/2019 22:00 | 채병기 |
+| Week 15. Generative Models | 10/07/2019 22:00 | 임한동 |
+| Week 16. Deep Reinforcement Learning | 10/14/2019 22:00 | 이정연 |
+| Week 17. Efficient Methods and Hardware for Deep Learning | 10/21/2019 22:00 | 박혜지 |
+| Week 18. Assignment #3 (CS231n 2019)→이후 내용 깃헙 공유 | 10/28/2019 22:00 | 토론 |
+| Week 19. Adversarial Examples and Adversarial Training | 11/04/2019 22:00 | 정혜원 |
+| Week 20. 마무리 | 11/11/2019 22:00 | 박혜지 |
 
 ## 유용한 링크 모음
 - [Deep Learning Book](http://www.deeplearningbook.org/)
