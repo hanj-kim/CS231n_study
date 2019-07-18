@@ -1,6 +1,6 @@
 #Study Records
 
->추가
+>Update
 #
 2019.07.18 Lecture2 내용 정리
 
