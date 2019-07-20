@@ -195,7 +195,7 @@ Cross-validation은 fold 개념을 추가하여 전체 training set을 N 등분�
 
 그래서 몇 가지 challenge가 있다.(Viewpoint variation, lllmination, Deformation, Occlusion, Background Clutter, IntraClass variation)
 
-2. Image Classification은 image에 label을 붙여 저장한 training set으로 모델을 학습시키고, test set으로 모델이 label을 예측합니다.
+2\. Image Classification은 image에 label을 붙여 저장한 training set으로 모델을 학습시키고, test set으로 모델이 label을 예측합니다.
 
 3\. prediction은 train image와 test image의 pixel 값들의 차이(distance)로 한다.
 
