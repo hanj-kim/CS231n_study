@@ -68,7 +68,7 @@ intraclass variation은 위의 그림처럼 같은 새끼고양이라도 색이 
 
 여기서는 image에 label을 붙여서 하는 방식인 Data-Driven Approach(데이터에 기반한 접근)방법을 소개하고 있습니다.
 
-1\. image에 label을 붙인 DataSet을 모은다.
+1\. image에 label을 붙인 Dataset을 모은다.
 
 2\. 머신러닝을 이용하여 분류하는 것을 학습한다.
 
