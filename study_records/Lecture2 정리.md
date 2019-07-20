@@ -1,7 +1,7 @@
 Lecture 2. Image Classification
 ===============================
 
-Fei-Fei 교수님의 cs231n(Spring 2017) 강의를 정리해보고자 합니다. 
+Fei-Fei 교수님의 cs231n (Spring 2017) 강의를 정리해보고자 합니다. 
 
 (본 포스팅은 cs231n 강의 Slide를 참고하여 작성하였습니다.)
 
@@ -18,12 +18,12 @@ Course Notes: [http://cs231n.github.io/](http://cs231n.github.io/)
 ![1](https://user-images.githubusercontent.com/37207332/61455680-34120080-a99f-11e9-9348-cda6b8a2c4b9.JPG)
 
 
-Computer Vision에서는 image를 어떻게 Classifier(분류)할까?라는 문제인데 사람의 경우 사진을 보고 바로 '고양이'라고 대답을 할 것입니다. 하지만 컴퓨터는 아래와 같이 image를 픽셀 정보로 보게 됩니다. 픽셀은 height(255) x width(255) x channel(3)으로 이뤄져있고, 컴퓨터는 각 픽셀에 대한 숫자 값으로 image를 보게 되는 것입니다.
+Computer Vision에서는 image를 어떻게 Classification(분류)할까?라는 문제인데 사람의 경우 사진을 보고 바로 '고양이'라고 대답을 할 것입니다. 하지만 컴퓨터는 아래와 같이 image를 픽셀 정보로 보게 됩니다. 픽셀은 height(255) x width(255) x channel(3)으로 이뤄져있고, 컴퓨터는 각 픽셀에 대한 숫자 값으로 image를 보게 되는 것입니다.
 #
 ![2](https://user-images.githubusercontent.com/37207332/61455721-53a92900-a99f-11e9-8c9e-0276399ec568.JPG)
 
 
-그렇기 때문에 몇 가지 Challenges(문제) 발생하는데, 하나씩 살펴보겠습니다.
+그렇기 때문에 몇 가지 Challenges(문제)가 발생하는데, 하나씩 살펴보겠습니다.
 #
 ![3](https://user-images.githubusercontent.com/37207332/61455739-602d8180-a99f-11e9-86fb-ea1d8443c578.JPG)
 
@@ -32,7 +32,7 @@ Computer Vision에서는 image를 어떻게 Classifier(분류)할까?라는 문�
 #
 ![4](https://user-images.githubusercontent.com/37207332/61455768-776c6f00-a99f-11e9-84e1-ca3529c74d4a.JPG)
 
-다음으로는 lllumination은 빛이 비치는 양에 따라서 달라보일 수 있다는 문제가 있습니다.
+다음으로는 illumination은 빛이 비치는 양에 따라서 달라보일 수 있다는 문제가 있습니다.
 #
 ![5](https://user-images.githubusercontent.com/37207332/61455842-a1be2c80-a99f-11e9-9653-bc6dbdcbd57b.JPG)
 
@@ -61,7 +61,7 @@ intraclass variation은 위의 그림처럼 같은 새끼고양이라도 색이 
 #
 ![9](https://user-images.githubusercontent.com/37207332/61455847-a256c300-a99f-11e9-8927-1c52ae791403.JPG)
 
-image를 Classifier할 때는 위와 같이 기본적으로 image에 label을 붙입니다.
+image를 Classification할 때는 위와 같이 기본적으로 image에 label을 붙입니다.
 
 예를 들면 고양이 사진에 label을 cat으로 붙여서 저장하는 것입니다.
 #
@@ -78,7 +78,7 @@ image를 Classifier할 때는 위와 같이 기본적으로 image에 label을 �
 #
 ![11](https://user-images.githubusercontent.com/37207332/61455849-a2ef5980-a99f-11e9-8755-632ab3123d12.JPG)
 
-첫번 째 Image Classifier방법은 Nearest Neighbor이다. 방법은 간단합니다.
+첫번째 Image Classification 방법은 Nearest Neighbor입니다. 방법은 간단합니다.
 
 image에 label을 붙여서 모든 Image를 저장하고, 저장되지 않은 새로운 image를 모델에 넣으면
 
@@ -86,11 +86,11 @@ image에 label을 붙여서 모든 Image를 저장하고, 저장되지 않은 �
 #
 ![12](https://user-images.githubusercontent.com/37207332/61455850-a2ef5980-a99f-11e9-8510-3fef4e5071e3.JPG)
 
-강의에서는 CIFAR10이라는 데이터 셋을 사용하여 예를 들어주었습니다.
+강의에서는 CIFAR10이라는 데이터셋을 사용하여 예를 들어주었습니다.
 
 CIFAR10은 10개의 클래스로 되어있고, 5만장을 학습시킨 것이고, 1만 장의 image는 test를 하였습니다.
 
-오른쪽을 보게 되면 Image Classifier 성능은 좋지 않다는 것을 알 수 있습니다.
+오른쪽을 보게 되면 Image Classification 성능은 좋지 않다는 것을 알 수 있습니다.
 
 맨 위는 비행기를 넣었는데 말, 배 그리고 하얀색 물체들이 나왔습니다.
 
@@ -103,11 +103,11 @@ Nearest Neighbor 방식은 간단하게 각 픽셀 간의 차이(거리)로 imag
 여기서는 각 픽셀 값들의 차의 절댓값으로 표현하는데 이유는 test image가 저장된 image와 얼마만큼의 차이가 있는지만 비교하면 되기 때문에 -값은 필요가 없이, 모든 거리의 차이 값만 더해서 확인하면 됩니다.
 #
 ![14](https://user-images.githubusercontent.com/37207332/61455852-a387f000-a99f-11e9-93a9-2138aec927a8.JPG)
-여기서 Nearest Neighbor 사용할 때 N개의 예제 image가 있다면 traing과 prediction은 얼마나 빠를까?를 물어보는데, 
+여기서 Nearest Neighbor 사용할 때 N개의 예제 image가 있다면 training과 prediction은 얼마나 빠를까를 물어보는데, 
 
-Nearest Neighbor는 traing은 image를 저장만 하기 때문에 복잡도(O:빅오)가 1이고,
+Nearest Neighbor는 training은 image를 저장만 하기 때문에 복잡도가 O(1)이고,
 
-predict는 모든 저장된 image와 비교하기 때문에 복잡도가 N(Number of stored Image)으로 오래걸린다는 것입니다.
+prediction은 모든 저장된 image와 비교하기 때문에 복잡도가 O(N) (Number of stored Image)으로 오래 걸린다는 것입니다.
 
 우리가 원하는 건 새로운 image를 넣었을 때 그것이 어떤 image인지 빨리 찾아주기를 원하는데
 
@@ -157,11 +157,11 @@ L1은 경계선 부분이 울퉁불퉁하고, 거칠게 보이는데 L2는 매�
 #
 ![19](https://user-images.githubusercontent.com/37207332/61455862-a4b91d00-a99f-11e9-87eb-8614801da148.JPG)
 
-Hyperparameter를 찾는 방법을 4가지 정도 소개하는데, Idea1은 보면 Dataset만 있는 경우입니다.
+Hyperparameter를 찾는 방법을 4가지 정도 소개하는데, Idea 1은 보면 Dataset만 있는 경우입니다.
 
-K=1인 경우로, traing set과 test set이 동일하여 항상 정확도는 100이지만 만약 새로운 image가 들어올 경우에는 정확도는 매우 낮을 것입니다.
+K=1인 경우로, train set과 test set이 동일하여 항상 정확도는 100이지만 만약 새로운 image가 들어올 경우에는 정확도는 매우 낮을 것입니다.
 
-Idea2는 train set과 test set으로 나누는 것인데요. 여기에도 문제점이 있습니다.
+Idea 2는 train set과 test set으로 나누는 것인데요. 여기에도 문제점이 있습니다.
 
 열심히 parameter를 정해서 train을 하고 test를 할 때 우리가 학습한 model이 정확도가 얼마나 나올지 모릅니다.
 
@@ -169,26 +169,25 @@ test는 실제로 우리가 적용할 data를 의미하기 때문에 우리의 �
 
 그래서 나온 것이 Idea3입니다.
 
-전체 데이터 중 train set에서 학습을 시키고, 학습된 model을 validation set을 통해 성능을 확인하고, 실제 image에 적용하는 것입니다.
+전체 데이터 중 train set에서 학습을 시키고, 학습된 model을 validation set을 통해 hyperparameter tuning을 한 후 최종 model을 test set에 적용하여 성능을 확인하는 것입니다.
 #
 ![20](https://user-images.githubusercontent.com/37207332/61455863-a4b91d00-a99f-11e9-83ca-d09edbc4df19.JPG)
 
-마지막으로 Idea4인 Cross-Validation을 설명하는데요. 이 방법은 Data set의 크기가 작을 때는 효과적이지만,
+마지막으로 Idea 4인 Cross-Validation을 설명하는데요. 이 방법은 Data set의 크기가 작을 때는 효과적이지만,
 
 Data set의 크기가 커지면 비효율적이라고 합니다. 이유를 살펴보면
 
-Cross-validation은 fold 개념을 추가하여 전체 traing set을 N 등분하여 fold(1~n)을 만듭니다.
+Cross-validation은 fold 개념을 추가하여 전체 training set을 N 등분하여 fold(1~n)를 만듭니다.
 
-그리고 각 fold 부분이 돌아가면서 (N-1)개의 train set, 1개의 validation set이 되어 train을 하고 validation을 하게 됩니다. 그렇기 때문에 data set의 크기가 커지면 traing과 prediction이 매우 오래 걸릴 수 있다는 문제점이 있습니다.
+그리고 각 fold 부분이 돌아가면서 (N-1)개의 train set, 1개의 validation set이 되어 train을 하고 validation을 하게 됩니다. 그렇기 때문에 data set의 크기가 커지면 training과 prediction이 매우 오래 걸릴 수 있다는 문제점이 있습니다.
 #
 ![21](https://user-images.githubusercontent.com/37207332/61455864-a551b380-a99f-11e9-9a0b-10e399f2c976.JPG)
 
-하지만 KNN은 Image Classifier에서는 절대 사용하지 않는다고 말합니다. 
+하지만 KNN은 Image Classification에서는 절대 사용하지 않는다고 말합니다. 
 이유는 2가지입니다.
 첫 번째는 test time 즉, prediction 시간이 오래걸린다는 것입니다.
 
-두 번째는 위의 사진들을 보면 원본, 일부를 가린 것, Shifted, Tinted처럼 4가지는 모두 다른 사진입니다.
-하지만 KNN은 이들을 모두 같은 사진으로 본다는 것입니다. 그래서 image Classifier에서는 사용하지 않는다고 합니다. 
+두 번째는 위의 사진들을 보면 원본, 일부를 가린 것, Shifted, Tinted처럼 4가지는 모두 다른 사진입니다.하지만 KNN은 이들을 모두 같은 사진으로 본다는 것입니다. 그래서 image Classification에서는 사용하지 않는다고 합니다. 
 
 #
 지금까지 내용을 정리하자면,
@@ -197,15 +196,15 @@ Cross-validation은 fold 개념을 추가하여 전체 traing set을 N 등분하
 
 그래서 몇 가지 challenge가 있다.(Viewpoint variation, lllmination, Deformation, Occlusion, Background Clutter, IntraClass variation)
 
-2. Image Classification은 training set에 label을 붙여 저장하고, test set은 label을 예측합니다. 
+2. Image Classification은 image에 label을 붙여 저장한 training set으로 모델을 학습시키고, test set으로 모델이 label을 예측합니다.
 
-3\. predict는 train image와 test image의 pixel 값들의 차이(distance)로 한다.
+3\. prediction은 train image와 test image의 pixel 값들의 차이(distance)로 한다.
 
 4\. 3번 방법은 Nearest Neighbor방법이라고 하고, KNN방법이 있다.
 
 5\. KNN에서 K는 hyperparameter이다.
 
-6\. 하지만 image Classifier에서는 KNN을 절대 사용하지 않는다.
+6\. 하지만 image Classification에서는 KNN을 절대 사용하지 않는다.
 #
 다음은 Linear Classification 내용을 살펴보겠습니다.
 
@@ -229,7 +228,7 @@ cs231n을 통해 Object Detection, Image Segmentation, Image Captioning 이런 �
 
 지난 시간에 배운 Data-Driven Approach 방식과 달리 이번 시간에는 Parametric Approach 방법을 소개하고 있습니다.
 
-이번 방법은 f(x,W) = Wx라는 선형식을 이용하여 image각 픽셀 값 32x32x3을 일렬로 쭉 뽑아서 W(weight)각 픽셀 값들의 가중치를 부여하여 클래스를 정하는 방법입니다.
+이번 방법은 f(x,W) = Wx라는 선형식을 이용하여 image 각 픽셀 값 32x32x3을 일렬로 쭉 뽑아서 W(weight) (각 픽셀 값들의 가중치)를 부여하여 클래스를 정하는 방법입니다.
 #
 ![7](https://user-images.githubusercontent.com/37207332/61457158-a6d0ab00-a9a2-11e9-9f18-8cfb46fb0049.JPG)
 
@@ -245,13 +244,13 @@ row별로 색이 다른 것을 확인 할 수 있는데 이는 클래스를 의�
 
 맨 위는 cat class, 가운데는 dog class, 맨 밑은 ship class입니다.
 
-위 그림은 고양이 그림을 넣었는데 Dog의 점수가 가장 높으므로 제대로 classifier를 하지 못했다고 할 수 있습니다.
+위 그림은 고양이 그림을 넣었는데 Dog의 점수가 가장 높으므로 제대로 classification을 하지 못했다고 할 수 있습니다.
 
 이 때는 w값을 조정해서 해당 image를 정확히 찾도록 해주어야하는데 이 부분은 앞으로 강의가 진행하면서 나오게 됩니다.
 #
 ![9](https://user-images.githubusercontent.com/37207332/61457160-a7694180-a9a2-11e9-9415-51dbc78063ef.JPG)
 
-위 그림은 CIFAR10을 Wx+b로 train했을 때의 W값들을 아래 흐릿한 사진들로 보여주고 있습니다.
+위 그림은 CIFAR10을 Wx + b로 train 했을 때의 W 값들을 아래 흐릿한 사진들로 보여주고 있습니다.
 
 말의 경우 머리가 양쪽으로 있는데 아마도 사진을 학습시킬 때 방향이 좌,우 모두 있었던 것 같습니다.
 
