@@ -53,6 +53,7 @@ Occlusion은 형체의 일부만 보이는 것을 말합니다.
 Background Clutter는 객체가 배경색과 거의 비슷하여 배경과 구분을 할 수 없는 문제입니다.
 #
 ![8](https://user-images.githubusercontent.com/37207332/61455845-a256c300-a99f-11e9-8d9b-49efd0114542.JPG)
+
 Intraclass variation은 intra는 안의, 내부의 라는 뜻으로 보면되고, 같은 클래스 내에서도 다른 색, 형태가 있을 수 있다는 것입니다.
 
 Deformation과의 차이점은 Deformation은 포즈가 다릅니다. 즉 모습의 형태가 다른 것(변형)을 말하는데
