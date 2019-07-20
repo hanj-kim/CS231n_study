@@ -101,6 +101,7 @@ Nearest Neighbor 방식은 간단하게 각 픽셀 간의 차이(거리)로 imag
 여기서는 각 픽셀 값들의 차의 절댓값으로 표현하는데 이유는 test image가 저장된 image와 얼마만큼의 차이가 있는지만 비교하면 되기 때문에 -값은 필요가 없이, 모든 거리의 차이 값만 더해서 확인하면 됩니다.
 #
 ![14](https://user-images.githubusercontent.com/37207332/61455852-a387f000-a99f-11e9-93a9-2138aec927a8.JPG)
+
 여기서 Nearest Neighbor 사용할 때 N개의 예제 image가 있다면 training과 prediction은 얼마나 빠를까를 물어보는데, 
 
 Nearest Neighbor는 training은 image를 저장만 하기 때문에 복잡도가 O(1)이고,
@@ -273,7 +274,6 @@ Linear Classification으로는 완벽하게 image를 분류할 수 없다라고 
 이를 해결하는 문제는 앞으로 Lecture가 진행되면서 배우게 됩니다.
 #
 ![12](https://user-images.githubusercontent.com/37207332/61457163-a7694180-a9a2-11e9-92cd-9ab37e0e2d47.JPG)
-
 
 위 그림은 Linear Classification으로 cat, car, frog를 test한 것입니다.
 
