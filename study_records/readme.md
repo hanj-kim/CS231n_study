@@ -1,13 +1,7 @@
-#Study Records
+# CS 231n Online Study Records
 
->Update
-#
-2019.07.18 Lecture2 내용 정리
+### Lecture 2 내용 정리 (작성자: 김영기)
+### Lecture 3 내용 정리 (작성자: 김영기)
 
-작성자: 김영기
-#
-2019.07.18 Lecture3 내용 정리
 
-작성자: 김영기
-#
-수정할 내용 있으면 수정해주세요 :)
+> 수정할 내용 있으면 수정해주세요 :)
