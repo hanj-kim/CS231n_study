@@ -61,14 +61,11 @@ intraclass variation은 위의 그림처럼 같은 새끼고양이라도 색이 
 #
 ![9](https://user-images.githubusercontent.com/37207332/61455847-a256c300-a99f-11e9-8927-1c52ae791403.JPG)
 
-image를 Classification할 때는 위와 같이 기본적으로 image에 label을 붙입니다.
-
-예를 들면 고양이 사진에 label을 cat으로 붙여서 저장하는 것입니다.
 #
 
 ![10](https://user-images.githubusercontent.com/37207332/61455848-a2ef5980-a99f-11e9-8bb2-db460542e6e4.JPG)
 
-이렇게 image에 label을 붙여서 하는 방식인 Data-Driven Approach(데이터에 기반한 접근)방법을 소개하고 있습니다.
+여기서는 image에 label을 붙여서 하는 방식인 Data-Driven Approach(데이터에 기반한 접근)방법을 소개하고 있습니다.
 
 1\. image에 label을 붙인 DataSet을 모은다.
 
