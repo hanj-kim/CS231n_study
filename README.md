@@ -19,15 +19,15 @@
 ## 스터디 진도표
 |          스터디 내용         |   날짜와 시간     | 발표자 |
 | -------------------------- |:---------------:|-----:|
-| Week 1. Introduction + 자기소개 |	07/01/2019 22:00 | 박혜지 |
-| Week 2. Image Classification | 07/08/2019 22:00 | 장형기 |
-| Week 3. Loss Functions and Optimization| 07/15/2019 22:00 | 전마로 |
-| Week 4. Introduction to Neural Networks | 07/22/2019 22:00 | 김영기 |
-| Week 5. CNN (Convolutional Neural Networks) | 07/29/2019 22:00 | 이정연 |
-| Week 6. Training Neural Networks, part 1 | 08/05/2019 22:00 | 전마로 |
-| Week 7. Assignment # 1 (CS231n 2019)→이후 내용 깃헙 공유 | 08/12/2019 22:00 | 토론 |
-| Week 8. Training Neural Networks, part 2 | 08/19/2019 22:00 | 김영기 |
-| Week 9. Deep Learning Software | 08/26/2019 22:00 | 김한준 |
+| _Week 1. Introduction + 자기소개_ |	_07/01/2019 22:00_ | 박혜지 |
+| _Week 2. Image Classification_ | _07/08/2019 22:00_ | 장형기 |
+| _Week 3. Loss Functions and Optimization_| _07/15/2019 22:00_ | 전마로 |
+| _Week 4. Introduction to Neural Networks_ | _07/22/2019 22:00_ | 김영기 |
+| _Week 5. CNN (Convolutional Neural Networks)_ | _07/29/2019 22:00_ | 이정연 |
+| Week 6. Deep Learning Software | 08/05/2019 22:00 | 김한준 |
+| Week 7. Training Neural Networks, part 1 | 08/12/2019 22:00 | 전마로 |
+| Week 8. Assignment # 1 (CS231n 2019)→이후 내용 깃헙 공유 | 08/19/2019 22:00 | 토론 |
+| Week 9. Training Neural Networks, part 2 | 08/26/2019 22:00 | 김영기 |
 | Week 10. CNN Architectures | 09/02/2019 22:00 |	장형기 |
 | Week 11. RNN (Recurrent Neural Networks) | 09/09/2019 22:00 | 임한동 |
 | Week 12. Assignment #2 (CS231n 2019)→이후 내용 깃헙 공유 | 09/16/2019 22:00 | 토론 |
