@@ -285,4 +285,4 @@ frog의 경우를 보면 -4.34로 가장 낮은 점수인 -4.79 다음의 점수
 
 정리하자면, 이번 시간에는 Linear Classification에 대해서 배웠습니다.
 
-Linear Classification은 image의 각 픽셀 값에 w(weight)를 곱한 값들의 합 즉, 행렬 연산을 통해 score를 얻게 되는 방식입니다. W값을 조정하면서 Classification 성능을 높일 수 있습니다. 하지만 직선이기 때문에 <그림 11>과 같은 경우들에서는 image Classification을 해결하지 못합니다.
+Linear Classification은 image의 각 픽셀 값에 w(weight)를 곱한 값들의 합 즉, 행렬 연산을 통해 score를 얻게 되는 방식입니다. W값을 조정하면서 Classification 성능을 높일 수 있습니다. 하지만 직선이기 때문에 직선으로 나눌 수 없는 Non-Linear한 경우들에서는 image Classification을 해결하지 못합니다.
