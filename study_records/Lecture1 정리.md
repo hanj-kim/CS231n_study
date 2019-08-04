@@ -1,5 +1,7 @@
 # Lecture 1
 
+([Youtube Link](https://www.youtube.com/watch?v=vT1JzLTH4G4&list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk&index=1)를 참조하여 작성하였습니다)
+
 Stanford CS231n 코스는 **Deep Learning을 사용한 Computer vision**에 대한 코스입니다.
 
 딥러닝 비전은 최근에 들어서야 갑작스럽게 부상한 기술임에도 불구하고, 현재 (2019년) 컴퓨터 비전 관련 모든 연구의 약 70% 이상을 차지하고 있다고 봐도 과언이 아닐만큼 인기를 끌고 있는 기술입니다.
