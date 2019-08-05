@@ -48,16 +48,16 @@ Loss function은 L로 표시되는 식으로 나타낼 수 있고, Li(x) 함수�
 
 첫번 째 Li 함수로 Multiclass에서 사용되는 SVM(Support Vector Machine)을 설명합니다.
 
-Sj는 정답이 아닌 클래스이고, Syi는 정답인 클래스 입니다.
+S<sub>j</sub>는 정답이 아닌 클래스이고, S<sub>y<sub>i</sub></sub>는 정답인 클래스 입니다.
 
-위 그림에서 cat을 살펴보면 Syi는 3.2가 되고, Sj값은 car: 5.1, frog: -1.7이 될 것입니다.
+위 그림에서 cat을 살펴보면 S<sub>y<sub>i</sub></sub>는 3.2가 되고, S<sub>j</sub>값은 car: 5.1, frog: -1.7이 될 것입니다.
 
 ![4](https://user-images.githubusercontent.com/37207332/61459038-d97ca280-a9a6-11e9-8661-92443b8b0955.JPG)
 #
 
 SVM은 그래프 모양이 Hinge(경첩)과 비슷하다고 하여 Hinge Loss라고도 합니다.
 
-Syi값이 크면(정답 클래스 점수가 높게 나온다면) Sj - Syi +1 값이 1(Safety Margin)보다 작아질 것이고,
+S<sub>y<sub>i</sub></sub>값이 크면(정답 클래스 점수가 높게 나온다면) S<sub>j</sub> - S<sub>y<sub>i</sub></sub> +1 값이 1(Safety Margin)보다 작아질 것이고,
 
 따라서 그래프처럼 Loss가 0이 됩니다. 즉, '정답 클래스 값이 정답이 아닌 클래스, Safety Margin보다 크다면
 
@@ -68,26 +68,26 @@ Loss는 0이다.'라고 보는 겁니다.
 
 강의 내용을 보면,
 
-여기서 Safety Margin을 두는 이유가 나오는데, Safety Margin이 무엇이냐면 만약에 Sj와 Syi값이 같은 값이 나오면
+여기서 Safety Margin을 두는 이유가 나오는데, Safety Margin이 무엇이냐면 만약에 S<sub>j</sub>와 S<sub>y<sub>i</sub></sub>값이 같은 값이 나오면
 
 Loss가 있음에도 불구하고, 그 값이 max(0,0)이 나오게되는 상황이 나오기 때문에 Safety Margin을 두게 됩니다.
 
-예를 들면 Sj = 3.2, Syi = 3.2이면 3.2 - 3.2 = 0이 나와서 max(0,0)이 되는 것이죠.
+예를 들면 S<sub>j</sub> = 3.2, S<sub>y<sub>i</sub></sub> = 3.2이면 3.2 - 3.2 = 0이 나와서 max(0,0)이 되는 것이죠.
 
 클래스 분류가 제대로 되지 않았음에도 loss가 0이 나올 수 있기 때문에 이를 방지하기 위한 값이라고 보시면 됩니다.
 
-그리고 Safety Margin 값은 hyperparamer로 원하는 값을 조정해서 넣을 수 있는데,
+그리고 Safety Margin 값은 hyperparameter로 원하는 값을 조정해서 넣을 수 있는데,
 
-만약 margin값이 크다면 Syi(정답 클래스)값이 더 커져야만 loss가 0이 될 수 있을 것이고,
+만약 margin값이 크다면 S<sub>y<sub>i</sub></sub>(정답 클래스)값이 더 커져야만 loss가 0이 될 수 있을 것이고,
 
-margin 값이 작다면 Syi(정답 클래스) 값이 더 작아도 loss가 0이 될 수 있게 됩니다.
+margin 값이 작다면 S<sub>y<sub>i</sub></sub>(정답 클래스) 값이 더 작아도 loss가 0이 될 수 있게 됩니다.
 #
 
 다음은 강의에서 나오는 몇 가지 질문들을 살펴보겠습니다.
 
 ![6](https://user-images.githubusercontent.com/37207332/61459042-da153900-a9a6-11e9-97a8-ce03dab85044.JPG)
 
-만약에 Sj - Syi에서 j=y\_i인 값들도 모두 포함해서 계산하면 어떻게 되는가? 라는 질문인데
+만약에 S<sub>j</sub> - S<sub>y<sub>i</sub></sub>에서 j=y\_i인 값들도 모두 포함해서 계산하면 어떻게 되는가? 라는 질문인데
 
 이는 자신과 다른 클래스의 차이를 구하는 것뿐만 아니라 자신과 자신의 차이도 구하면 어떻게 되는가?라는 질문입니다.
 
@@ -131,7 +131,7 @@ Regularization이 되어있지 않으면 기존의 W 값이 unique하지 않아�
 
 들어왔을 때 그 값을 쉽게 유추하지 못하게 된다는 뜻입니다.
 
-위 그림처럼 람다 값을 추가해서 기존 모델을 비선형에서 더 단순하게 만들어야하고,
+위 그림처럼 Lambda 값을 추가해서 기존 모델을 비선형에서 더 단순하게 만들어야하고,
 
 차원(Dimension)을 줄인다고 볼 수 있겠습니다.
 #
@@ -173,7 +173,7 @@ Softmax하고 SVM을 비교해겠습니다.
 
 SVM의 경우 예를 들어서 frog나 car의 값을 조금 바꿔서 다시 계산한다고 해도
 
-Sj - Syi +1에서 결국에는 정답인 클래스가 정답이 아닌 클래스+1보다 크다면 loss는 항상 0이기 때문에
+S<sub>j</sub> - S<sub>y<sub>i</sub></sub> +1에서 결국에는 정답인 클래스가 정답이 아닌 클래스+1보다 크다면 loss는 항상 0이기 때문에
 
 정답이 아닌 클래스의 score의 변화에 대해서 둔합니다.
 
