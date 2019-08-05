@@ -43,11 +43,11 @@ gradient를 이용해 Loss가 작아지도록 합니다.
 
 gradient는 위의 수식으로 풀어서 구하는 **Numerical** 방법이 있습니다.
 
-보통 h는 0에 근사한 값을 사용하고, 보통 10e-4(:10^4)정도로 해서 gradient를 구합니다.
+보통 h는 0에 근사한 값을 사용하고, 보통 1e-4(= 10<sup>-4</sup>)정도로 해서 gradient를 구합니다.
 
 다른 방법으로는 **Analytic** 방법이 있습니다. 우리가 일반적으로 gradient를 구하는 방법으로
 
-x^2 = 2x 같이 푸는 방법을 말합니다.
+(x<sup>2</sup>)' = 2x 같이 푸는 방법을 말합니다.
 
 #
 ![4](https://user-images.githubusercontent.com/37207332/61961474-7f14bf00-b002-11e9-9497-3a20cce28ecd.JPG)
