@@ -171,7 +171,7 @@ Softmax Function은 각 score값에 e(자연상수)를 취하고, 그 값들의 
 Softmax하고 SVM을 비교해겠습니다.
 ![17](https://user-images.githubusercontent.com/37207332/61459058-dbdefc80-a9a6-11e9-8f12-b09bc4215945.JPG)
 
-SVM의 경우 예를 들어서 flog나 car의 값을 조금 바꿔서 다시 계산한다고 해도
+SVM의 경우 예를 들어서 frog나 car의 값을 조금 바꿔서 다시 계산한다고 해도
 
 Sj - Syi +1에서 결국에는 정답인 클래스가 정답이 아닌 클래스+1보다 크다면 loss는 항상 0이기 때문에
 
