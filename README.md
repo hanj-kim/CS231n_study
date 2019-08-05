@@ -24,7 +24,7 @@
 | Week 3. Loss Functions and Optimization | ~~07/15/2019 22:00~~ | 전마로 |
 | Week 4. Introduction to Neural Networks | ~~07/22/2019 22:00~~ | 김영기 |
 | Week 5. CNN (Convolutional Neural Networks) | ~~07/29/2019 22:00~~ | 이정연 |
-| Week 6. Deep Learning Software | 08/05/2019 22:00 | 김한준 |
+| Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |
 | Week 7. Training Neural Networks, part 1 | 08/12/2019 22:00 | 전마로 |
 | Week 8. Assignment # 1 (CS231n 2019)→이후 내용 깃헙 공유 | 08/19/2019 22:00 | 토론 |
 | Week 9. Training Neural Networks, part 2 | 08/26/2019 22:00 | 김영기 |
