@@ -135,7 +135,7 @@ Fully-connected Layer라고 부릅니다.
 #
 ![14](https://user-images.githubusercontent.com/37207332/61961491-80de8280-b002-11e9-8103-97a49f9cb7a3.JPG)
 
-Backward propagation backpropagation은 Loss쪽에서 input쪽으로 gradient를 계산하면서
+Backward propagation (backpropagation)은 Loss쪽에서 input쪽으로 gradient를 계산하면서
 
 input이 Loss에 미치는 영향을 구할 수 있습니다.
 
