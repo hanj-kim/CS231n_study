@@ -209,7 +209,7 @@ x, y 앞에 node가 있어도 마찬가지로 Chain rule을 이용해서 gradien
 #
 다른 예제 통해 backpropagation을 설명합니다.
 
-이번 예제는 (w0x0 + w1x1 + w2)의 계산 값이 Sigmoid function에 input이 되어 계산되는 graph입니다.
+이번 예제는 (w<sub>0</sub>x<sub>0</sub> + w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>)의 계산 값이 Sigmoid function에 input이 되어 계산되는 graph입니다.
 
 ![24](https://user-images.githubusercontent.com/37207332/61961504-82a84600-b002-11e9-9f62-c6c5305a6f3b.JPG)
 #
@@ -223,7 +223,7 @@ x, y 앞에 node가 있어도 마찬가지로 Chain rule을 이용해서 gradien
 
 지금부터는 Chain rule을 적용하여 backpropagation을 구합니다.
 
-다음으로 1/x부분의 gradient는 -1/x^2이 되고, input으로는 1.37이 들어와서 연산이 됩니다.
+다음으로 1/x부분의 gradient는 -1/x<sup>2</sup>이 되고, input으로는 1.37이 들어와서 연산이 됩니다.
 #
 
 global gradient는 1이 되고, Chain rule에 의해 두 값을 계산하면 다음과 같이 나옵니다.
@@ -257,7 +257,7 @@ exp 노드에 대한 연산도 같은 방법으로 진행해줍니다.
 ![34](https://user-images.githubusercontent.com/37207332/61961519-84720980-b002-11e9-9f58-ba462b255f1a.JPG)
 #
 
-이번 예제는 어떤 input(w0x0 + w1x1 + w2)가 sigmoid의 input으로 들어간다고 했습니다.
+이번 예제는 어떤 input(w<sub>0</sub>x<sub>0</sub> + w<sub>1</sub>x<sub>1</sub> + w<sub>2</sub>)가 sigmoid의 input으로 들어간다고 했습니다.
 
 그래서 다음과 같이 sigmoid에 대한 gradient를 구하면 \*-1, exp, +1, 1/x  4단계를 거쳐 gradient를 구하지 않고,
 
@@ -306,14 +306,14 @@ W, X(matrix이기 때문에 대문자로 표시하겠습니다.) WX는 구하면
 ![2](https://user-images.githubusercontent.com/37207332/61963678-2267d300-b007-11e9-9756-010f41903c23.JPG)
 ![3](https://user-images.githubusercontent.com/37207332/61963679-2267d300-b007-11e9-96da-e942caeab8a8.JPG)
 
-q^2 미분 값은 2q가 나옵니다. 따라서 df/dq 값이 위와 같이 나온 것입니다.
+q<sup>2</sup> 미분 값은 2q가 나옵니다. 따라서 df/dq 값이 위와 같이 나온 것입니다.
 #
 
 ![4](https://user-images.githubusercontent.com/37207332/61963681-23006980-b007-11e9-8dab-6b0984bea930.JPG)
 
-다음은 df/dw를 구해야하는데 Chain rule에 의해서 df/dq \* dq/df가 됩니다.
+다음은 df/dw를 구해야하는데 Chain rule에 의해서 (df/dq) * (dq/df)가 됩니다.
 
-df/dq는 앞서 구했던 2q이고, dq/dw는 (1 k=i) \* Xj 이기 때문에 df/dw는 2qx가 됩니다.
+df/dq는 앞서 구했던 2q이고, dq/dw는 1<sub>k=i</sub> \* X<sub>j</sub> 이기 때문에 df/dw는 2qx가 됩니다.
 #
 
 q와 x가 2x1, 2x1이므로 하나를 Transpose를 해줘서 계산합니다.
