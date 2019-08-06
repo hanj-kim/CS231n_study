@@ -15,7 +15,7 @@
 
 ## Repository 사용법:
 - **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)**: 스터디 내용 / 추가 정보 공유
-- **Issues**: 스터디에서 나눈 질의응답 / 추가 정보 공유
+- **[Issues](https://github.com/ai-robotics-kr/CS231n_study/issues)**: 스터디에서 나눈 질의응답 / 추가 정보 공유
 - **['Assignments' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments)**: 스터디원들의 Assignment 코드 공유
 
 ## 스터디 진도표
