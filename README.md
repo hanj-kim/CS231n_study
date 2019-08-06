@@ -11,7 +11,8 @@
 ## 스터디 진행 방법 / Repository 사용법:
 - [강의 Syllabus](http://cs231n.stanford.edu/syllabus.html)를 참고해 개인적으로 공부를 하고 매주 돌아가면서 한명의 스터디원이 발표하고 질의응답시간에 관련 내용을 가지고 의견을 나눕니다. Google Hangout의 그룹화상통화 기능을 이용해 발표합니다.
 - 참고한 자료는 [2017년도 동영상 강의](https://www.youtube.com/playlist?list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv)와 [2017년도 슬라이드](http://cs231n.stanford.edu/slides/2017/) / [2019년도 슬라이드](http://cs231n.stanford.edu/slides/2019/) 및 Lecture Notes 입니다.
-- 스터디 내용 및 질의응답, 토론 내용의 일부를 정리하여 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
+- 스터디 내용을 정리하여 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
+- 스터디에서 나눈 질의응답을 정리하여 **Issues**에 공유합니다.
 - CS231n Online Study 스터디원들의 Assignment 코드를 **['Assignments' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments)** 에 공유합니다.
 - 팀원들은 Slack과 카카오톡을 이용하여 소통하고 스터디에 도움이 될만한 내용은 **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)** 에 공유합니다.
 
