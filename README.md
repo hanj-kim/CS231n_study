@@ -19,7 +19,7 @@
 - **['Assignments' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments)**: 스터디원들의 Assignment 코드 공유
 
 ## 스터디 진도표
-|          스터디 내용         |   날짜와 시간     |  발표자  |  발표자료  | 스터디 노트 |
+|          스터디 내용         |   날짜와 시간     |  발표자  | 발표자료 | 스터디노트 |
 | -------------------------- |---------------:|-----:|-----:|-----:|
 | Week 1. Introduction + 자기소개 |	~~07/01/2019 22:00~~ | 박혜지 | [pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture1.pdf) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lecture1%20정리.md) |
 | Week 2. Image Classification | ~~07/08/2019 22:00~~ | 장형기 |[pdf](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture2.pdf) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lecture2%20%EC%A0%95%EB%A6%AC.md) |
@@ -27,7 +27,7 @@
 | Week 4. Introduction to Neural Networks | ~~07/22/2019 22:00~~ | 김영기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture4.pptx) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lecture4%20%EC%A0%95%EB%A6%AC.md) |
 | Week 5. CNN (Convolutional Neural Networks) | ~~07/29/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture5.pptx) | [Notes] |
 | Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |[pdf] | [Notes] |
-| Week 7. Training Neural Networks, part 1 | 08/12/2019 22:00 | 전마로 |[pdf] | [Notes] |
+| Week 7. Training Neural Networks, part 1 | ~~08/12/2019 22:00~~ | 전마로 |[pdf] | [Notes] |
 | Week 8. Assignment # 1 (CS231n 2019)→이후 내용 깃헙 공유 | 08/19/2019 22:00 | 토론 |[pdf] | [Notes] |
 | Week 9. Training Neural Networks, part 2 | 08/26/2019 22:00 | 김영기 |[pdf] | [Notes] |
 | Week 10. CNN Architectures | 09/02/2019 22:00 |	장형기 |[pdf] | [Notes] |
