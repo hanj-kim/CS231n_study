@@ -4,7 +4,7 @@
 
 ## 스터디 소개:
 - 목적: [Stanford University CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/) 강의를 통해 <br/>딥러닝 기반 비전에 대해 공부하기.
-- 기간: 2019년 7월 ~ 2019년 11월
+- 기간: 2019년 7월 ~ 2019년 10월
 - 참여자: 박혜지, 장형기, 전마로, 김영기, 이정연, 김한준, 임한동, 채병기, 정혜원, 배현진
 - 기획 그룹: [AI Robotics KR](https://www.facebook.com/groups/airoboticskr/)
 
@@ -17,7 +17,6 @@
 ## Repository 사용법:
 - **['Study Records' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/study_records)**: 스터디 내용 / 추가 정보 공유
 - **[Issues](https://github.com/ai-robotics-kr/CS231n_study/issues)**: 스터디에서 나눈 질의응답 / 추가 정보 공유
-- **['Assignments' 폴더](https://github.com/ai-robotics-kr/cs231n_study/tree/master/Assignments)**: 스터디원들의 Assignment 코드 공유
 
 ## 스터디 진도표
 |  스터디 내용  | 날짜와 시간 | 발표자 | 발표자료 | 스터디노트 |
@@ -29,23 +28,20 @@
 | Week 5. CNN (Convolutional Neural Networks) | ~~07/29/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture5.pptx) | [Notes] |
 | Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |[pdf] | [Notes] |
 | Week 7. Training Neural Networks, part 1 | ~~08/12/2019 22:00~~ | 전마로 |[pdf] | [Notes] |
-| Week 8. Assignment # 1 (CS231n 2019)<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→이후 내용 깃헙 공유 | 08/26/2019 22:00 | 토론 |[pdf] | [Notes] |
+| Week 8. Assignment # 1 (CS231n 2019) | ~~08/26/2019 22:00~~ | 토론 | [ ] | [Notes] |
 | Week 9. Training Neural Networks, part 2 | 09/02/2019 22:00 | 김영기 |[pdf] | [Notes] |
 | Week 10. CNN Architectures | 09/09/2019 22:00 |	장형기 |[pdf] | [Notes] |
 | Week 11. RNN (Recurrent Neural Networks) | 09/16/2019 22:00 | 임한동 |[pdf] | [Notes] |
-| Week 12. Assignment #2 (CS231n 2019)<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→이후 내용 깃헙 공유 | 09/23/2019 22:00 | 토론 |[pdf] | [Notes] |
-| Week 13. Detection and Segmentation |	09/30/2019 22:00 | 김한준 |[pdf] | [Notes] |
-| Week 14. Visualizing and Understanding | 10/07/2019 22:00 | 채병기 |[pdf] | [Notes] |
-| Week 15. Generative Models | 10/14/2019 22:00 | 임한동 |[pdf] | [Notes] |
-| Week 16. Deep Reinforcement Learning | 10/21/2019 22:00 | 이정연 |[pdf] | [Notes] |
-| Week 17. Efficient Methods and Hardware <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Deep Learning| 10/28/2019 22:00 | 박혜지 |[pdf] | [Notes] |
-| Week 18. Assignment #3 (CS231n 2019)<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→이후 내용깃헙 공유 | 11/04/2019 22:00 | 토론 |[pdf] | [Notes] |
-| Week 19. Adversarial Examples and Adversarial Training | 11/11/2019 22:00 | 정혜원 |[pdf] | [Notes] |
-| Week 20. 마무리 | 11/18/2019 22:00 | 박혜지 |[pdf] | [Notes] |
+| Week 12. Detection and Segmentation |	09/23/2019 22:00 | 김한준 |[pdf] | [Notes] |
+| Week 14. Visualizing and Understanding | 09/30/2019 22:00 | 채병기 |[pdf] | [Notes] |
+| Week 15. Generative Models | 10/07/2019 22:00 | 임한동 |[pdf] | [Notes] |
+| Week 16. Deep Reinforcement Learning | 10/14/2019 22:00 | 이정연 |[pdf] | [Notes] |
+| Week 17. Efficient Methods and Hardware <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Deep Learning| 10/21/2019 22:00 | 박혜지 |[pdf] | [Notes] |
+| Week 18. 마무리 | 10/28/2019 22:00 | 박혜지 |[pdf] | [Notes] |
 
 ## CS231n 온라인 스터디 안내
 ```
-- 온라인 (구글 행아웃)으로 매주 월요일 22시 ~ 23시 30분에 진행됩니다. (2019.07 ~ 2019.11)
+- 온라인 (구글 행아웃)으로 매주 월요일 22시 ~ 23시 30분에 진행됩니다. (2019.07 ~ 2019.10)
 - 스터디 형식: 슬라이드 발표 (약 30분 ~ 40분 이내) + 질의응답 + 토론 
 - 매주 스터디를 녹화합니다.
 ```
@@ -63,7 +59,7 @@
 
 - 기타 알림 사항
   - 슬랙 채널 ch_딥러닝_비전이나 카카오톡 단톡방을 이용하여 질문하실 수 있습니다.
-  - 직장인이나 천천히 공부하고 싶은 분들이 있을 것 같아 총 20주로 구성하였습니다.
+  - 직장인이나 천천히 공부하고 싶은 분들이 있을 것 같아 총 18주로 구성하였습니다.
   - 마음껏 질문과 의견을 나누어주세요.
 ```
 ## 유용한 링크 모음
