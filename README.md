@@ -26,8 +26,8 @@
 | Week 3. Loss Functions and Optimization |  ~~07/15/2019 22:00~~  | 전마로 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture3.pptx) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lecture3%20%EC%A0%95%EB%A6%AC.md) |
 | Week 4. Introduction to Neural Networks |  ~~07/22/2019 22:00~~  | 김영기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture4.pptx) | [Notes](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/Lecture4%20%EC%A0%95%EB%A6%AC.md) |
 | Week 5. CNN (Convolutional Neural Networks) | ~~07/29/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture5.pptx) | [Notes] |
-| Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |[pdf] | [Notes] |
-| Week 7. Training Neural Networks, part 1 | ~~08/12/2019 22:00~~ | 전마로 |[pdf] | [Notes] |
+| Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |[ppt] | [Notes] |
+| Week 7. Training Neural Networks, part 1 | ~~08/12/2019 22:00~~ | 전마로 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture6.pptx) | [Notes] |
 | Week 8. Assignment # 1 (CS231n 2019) | ~~08/26/2019 22:00~~ | 토론 | 없음 | [Notes] |
 | Week 9. Training Neural Networks, part 2 | ~~09/02/2019 22:00~~ | 김영기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture7.pptx) | [Notes] |
 | Week 10. CNN Architectures | 09/09/2019 22:00 |	장형기 |[pdf] | [Notes] |
