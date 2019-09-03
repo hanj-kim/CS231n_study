@@ -28,8 +28,8 @@
 | Week 5. CNN (Convolutional Neural Networks) | ~~07/29/2019 22:00~~ | 이정연 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture5.pptx) | [Notes] |
 | Week 6. Deep Learning Software | ~~08/05/2019 22:00~~ | 김한준 |[pdf] | [Notes] |
 | Week 7. Training Neural Networks, part 1 | ~~08/12/2019 22:00~~ | 전마로 |[pdf] | [Notes] |
-| Week 8. Assignment # 1 (CS231n 2019) | ~~08/26/2019 22:00~~ | 토론 | [ ] | [Notes] |
-| Week 9. Training Neural Networks, part 2 | 09/02/2019 22:00 | 김영기 |[pdf] | [Notes] |
+| Week 8. Assignment # 1 (CS231n 2019) | ~~08/26/2019 22:00~~ | 토론 | 없음 | [Notes] |
+| Week 9. Training Neural Networks, part 2 | ~~09/02/2019 22:00~~ | 김영기 |[ppt](https://github.com/ai-robotics-kr/CS231n_study/blob/master/study_records/%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C/cs231n_2017_lecture7.pptx) | [Notes] |
 | Week 10. CNN Architectures | 09/09/2019 22:00 |	장형기 |[pdf] | [Notes] |
 | Week 11. RNN (Recurrent Neural Networks) | 09/16/2019 22:00 | 임한동 |[pdf] | [Notes] |
 | Week 12. Detection and Segmentation |	09/23/2019 22:00 | 김한준 |[pdf] | [Notes] |
