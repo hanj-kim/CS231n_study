@@ -34,7 +34,7 @@
 | Week 11. RNN (Recurrent Neural Networks) | 09/16/2019 22:00 | 임한동 |[pdf] | [Notes] |
 | Week 12. Detection and Segmentation |	09/23/2019 22:00 | 김한준 |[pdf] | [Notes] |
 | Week 14. Visualizing and Understanding | 09/30/2019 22:00 | 채병기 |[pdf] | [Notes] |
-| Week 15. Generative Models | 10/07/2019 22:00 | 임한동 |[pdf] | [Notes] |
+| Week 15. Generative Models | 10/07/2019 22:00 | 정혜원 |[pdf] | [Notes] |
 | Week 16. Deep Reinforcement Learning | 10/14/2019 22:00 | 이정연 |[pdf] | [Notes] |
 | Week 17. Efficient Methods and Hardware <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for Deep Learning| 10/21/2019 22:00 | 박혜지 |[pdf] | [Notes] |
 | Week 18. 마무리 | 10/28/2019 22:00 | 박혜지 |[pdf] | [Notes] |
